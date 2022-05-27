@@ -1,0 +1,5 @@
+Variables: le otorgan un valor a un elmento. E signo = separa el elemento del valor que lo definira.
+Strings: Son valores absolutos no numericos que se ubican dentro del espacio comprendido entre ''
+Funciones (argumentos, return): Las funciones realizan acciones, se componen por argumentos que son los que moldean la funcion para realizar distintas acciones. La opcion return devuelve un valor independientemente de lo que la funcion este ejecutando.  
+Declaraciones if: Son acciones que realizan una accion. En este caso un condicional, que de ser correcto realiza cierta accion, de lo contrario realizara otra.
+Valores booleanos (true, false): Es un concepto que otorga un resultado con dos opciones, verdadero o falso, activar/desactivar, dicotomicos. Ejemplo codigo binario 1 y 0.
