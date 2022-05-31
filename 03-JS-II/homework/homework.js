@@ -7,7 +7,7 @@ function obtenerMayor(x, y) {
   // Tu código:
   if( x > y ) return x;
   if ( y > x ) return y;
-  if (x = y ) return x || y
+  if (x = y ) return x || y;
 }
 
 function mayoriaDeEdad(edad) {
@@ -16,9 +16,9 @@ function mayoriaDeEdad(edad) {
   //Si es menor, devolver --> "Not allowed"
 
   if (edad => 18) {
-    console.log('Allowed')
+    console.log('Allowed');
   } else {
-    console.log('Not allowed')
+    console.log('Not allowed');
   }
 }
   
@@ -28,7 +28,16 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-}
+  if (status === 1) {
+    console.log('Online');
+  } else if (status === 2) {
+    console.log('Away');
+  } else {
+    console.log('Offline');
+  }
+
+  }
+
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
